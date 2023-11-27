@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="223.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.conversor.HelloController">
+   <children>
+      <Button fx:id="btnConvert1" layoutX="24.0" layoutY="151.0" mnemonicParsing="false" onAction="#convDolar" text="Convertir a Doláres" />
+      <TextField fx:id="txtDolar" layoutX="185.0" layoutY="151.0" promptText="Introduce un valor" />
+      <TextField fx:id="txtPesos" layoutX="186.0" layoutY="69.0" promptText="Introduce un valor" />
+      <Label layoutX="240.0" layoutY="183.0" text="Doláres" />
+      <Label layoutX="245.0" layoutY="102.0" text="Pesos" />
+      <Button fx:id="btnConvert2" layoutX="19.0" layoutY="69.0" mnemonicParsing="false" onAction="#convPesos" text="Convertir a Pesos" />
+   </children>
+</AnchorPane>
