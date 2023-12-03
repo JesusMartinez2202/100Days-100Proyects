@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox id="fondo" alignment="CENTER" prefHeight="200.0" prefWidth="388.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.converter.converterbinary.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <AnchorPane prefHeight="160.0" prefWidth="350.0">
+         <children>
+            <Label id="lbWarning" fx:id="lbWarning" alignment="CENTER" layoutY="2.0" prefHeight="17.0" prefWidth="388.0" textFill="RED" textOverrun="CENTER_ELLIPSIS" />
+            <Button id="btnConvertir" fx:id="btnConvert" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" onAction="#toBinary" text="Convertir" />
+            <Button id="btnConvertir" fx:id="btnConvert1" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" onAction="#toDecimal" text="Convertir" />
+            <TextField id="lbTexto" fx:id="lbDecimal" layoutX="161.0" layoutY="35.0" promptText="Número decimal" />
+            <TextField id="lbTexto" fx:id="lbBinary" layoutX="161.0" layoutY="93.0" promptText="Número binario" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
